@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-banner{
+    background-image: url(../images/developer.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-text{
+    color: #fff;
+    font-size: 2.5em;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+.naming{
+    font-size: 0.5em;
+}
+
+.heading{
+    background-color: #0b0b0b;
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.youText{
+    font-size: 1.8em;
+}
+
+.services{
+    padding: 100px 100px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 25%;
+    border: 2px solid #3b3737;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+}
+
+.card p {
+    margin: 10px;
+    text-align: justify;
+}
+
+.contact-section{
+    display: flex;
+    padding: 50px 150px;
+}
+
+.contact-section .about{
+    width: 50%;
+    background-color: #e25807;
+    padding: 50px;
+
+}
+
+.contact-section .ab{
+    background-color: #5707e2;
+}
