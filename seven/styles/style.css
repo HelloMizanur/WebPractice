@@ -198,8 +198,14 @@ input {
     padding: 20px;
 }
 
-.ddvv {
+.ddvv{
     display: flex;
+}
+footer{
+    padding: 100px;
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
 }
 
 /* responsive  */
@@ -245,6 +251,13 @@ input {
     }
     .instext{
        max-width: 380px;
+    }
+    .ddvv{
+        flex-direction: column;
+        gap: 30px;
+    }
+    input{
+        width: 100%;
     }
 
 }
