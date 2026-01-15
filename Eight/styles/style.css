@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Shared styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #0D1321;
+}
+
+.azeret-mono-font {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+}
+
+.container{
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
+ /* Main style */
+
+/* Header */
+ .navLogo{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .navLogo .logo{
+    font-size: 1.6rem;
+    color: #0D1321;
+    font-weight: bolder;
+ }
+ .navLogo .dcv{
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #0D1321;
+  padding: 17px 24px;
+  border: 2px solid #0D1321;
+  border-radius: 5px;
+ }
+
+ #banner{
+  background-image: url("../assets/Hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .banner_Container{
+  text-align: center;
+  padding: 40px 0px;
+  max-width: 1000px;
+ }
+ .banner_text h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 68px;
+    color: #0D1321;
+    margin-bottom: 30px;
+ }
+ .btn-primary{
+  color: #ffffff;
+  font-size: 1.3rem;
+  padding: 20px 25px;
+  background-color: #0D1321;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+ }
+
+ /* Web section */
+ .web_container{
+    background-color: #dad4d483;
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+ }
+ .web_text h1{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 30px;
+ }
+ .web_text p{
+    max-width: 1000px;
+    padding: 0px 50px;
+    line-height: 26px;
+ }
+ .btn-second{
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #0D1321;
+  padding: 17px 24px;
+  border: 2px solid #0D1321;
+  border-radius: 5px;
+ }
+ .web_items{
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+ }
+ .web_card{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+ .card_text{
+  max-width: 470px;
+  text-align: left;
+ }
+ .card_text h3{
+    font-size: 1.5rem;
+    color: rgba(13, 19, 33, 0.7);
+    line-height: 36px;
+    margin-bottom: 30px;
+    font-weight: bold;
+ }
+ .card_text p{
+  margin-bottom: 30px;
+ }
+
+ /* inspiration section */
+
+ .ins_container{
+    margin-top: 50px;
+    text-align: center;
+ }
+.video_section {
+    margin: 50px 0;
+    border: 1px solid #0D1321;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    padding-top: 56.25%; 
+}
+
+.video_section iframe {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 95%;
+    height: 95%;
+    border: 0;
+    border-radius: 20px;
+}
